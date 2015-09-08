@@ -1,0 +1,147 @@
+body
+{
+	background-color: #FFDEAD;
+}
+#form
+{
+	text-align: center;
+	background-color: darkcyan;
+}
+#form > p
+{
+	color: yellow;
+	font-size: 30px;
+	font-family: Courier;
+	background-color: green;
+	margin-top: 0px;
+}
+.style
+{
+	font-size:30px;
+	font-family: Verdana;
+}
+.text
+{
+	border: 2px solid violet;
+	border-radius: 10px;
+	font-size: 27px;
+	font-family: New Times Roman;
+}
+.submit
+{
+	font-size:23px;
+	color: goldenrod;
+	font-family: bold;
+	border:2px solid violet;
+	border-radius:10px;
+}
+#login
+{
+	text-align: center;
+}
+#first
+{
+	font-size:20px;
+	color: Aquamarine ;
+	font-family:Arial;
+	float: left;
+}
+#second
+{
+	font-size:20px;
+	color:red;
+	font-family:bold;
+}
+.notify
+{
+	text-align: center;
+	font-size:25px;
+	font-family:Bold;
+	color:dimgray
+}
+#email
+{
+	font-size:30px;
+	font-family: Times New Roman;
+	color:blue;
+	text-decoration: underline;
+}
+#register_button
+{
+	border-radius: 10px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 20px;
+	width: 80px;
+	margin: auto;
+	text-align: center;
+	float: left;
+}
+a
+{
+	text-decoration : none;
+	font-family: bold;
+}
+#login_button
+{
+	border-radius: 10px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 20px;
+	width: 50px;
+	float: left;
+}
+#login_button1
+{
+	border-radius: 10px;
+	border: 2px solid #6495ED;
+	background-color: yellow;
+	height: 20px;
+	width: 50px;
+	margin-left: 600px;
+}
+#login1
+{
+	background-color: darkcyan;
+	text-align : center;
+}
+.add
+{
+	font-size:30px;
+	color:darkred;
+	font-family: bold";
+}
+#index
+{
+	text-align: center;
+}
+#logout
+{
+	float: right;
+	color: red;
+	font-size: 27px;
+	font-family: Verdana;
+}
+#view
+{
+	text-align: center;
+	font-size: 35px;
+	font-family: sans-serif;
+	color: MediumOrchid;
+}
+#logout_button
+{
+	border-radius: 10px;
+	border: 2px solid #6495ED;
+	background-color: #BCD2EE;
+	height: 20px;
+	width: 60px;
+	float: right;
+}
+#third
+{
+	font-size: 25px;
+	font-family: bold;
+	text-align: center;
+	color: Aquamarine ;
+}

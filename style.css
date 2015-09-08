@@ -1,0 +1,13 @@
+.diff td{
+  vertical-align : top;
+  white-space    : pre;
+  white-space    : pre-wrap;
+  font-family    : monospace;
+}
+.diffDeleted{
+ color:red;
+}
+.diffInserted{
+ color:green;
+}
+
