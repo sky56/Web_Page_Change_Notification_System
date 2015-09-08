@@ -1,8 +1,20 @@
 
 # Web_Page_Change_Notification_System
-Due to increasing number of people that use the Web for shopping or on-line trading,services for searching information and identifying changes on the Web, have received renewed attention from both industry and research community. Indeed, users of e-commerce or on-line trading sites frequently need to keep track of page changes, sincethey want to access pages only when their information has been updated. The detection of changes across two different versions of the web pages and notifying the changes to the user is the core operation of Web Page Change Notification System. Such system is useful for stock broker, job seekers who are continuously monitoring the changes in the web pages.
-       
-       It uses linux tools like 'wget' to download the website, 'rsync' to manage incremental backups of different versions of website, 'diff' command to compare 2 versions of webpages and 'crontab' to manage the frequencies of notification. It is build up on Linux CentOS 6.5 and uses 
-PHP version 5.6.8
-Apache web server 2.2.15(Unix) 
-phpMyAdmin for web database management using MySQL ver 14.14 Distrib 5.1.73.
+Web Page Change Notification System notifies the changes in the 2 versions of the correspondingweb page of a website. It not only notifies the changes in the web page but also the chnages in the source code of the corresponding web pages. It takes the following input from the user-
+1. Name of the website_url
+2. Frequency at which they want to get notified of their changes(hourly,daily,weekly,monthly,yearly)
+
+# Platform
+The system is made on Linux CentOS 6.5. It uses a lot of linux tools like # wget to download the website, #rysnc to implement incremental backup of the 2 versions of the web pages, #diff to compare 2 version trees and finally # crontab to manage the frequencies. It also requires the following:
+1.PHP version 5.6.8
+2.Apache web server 2.2.15(Unix).
+3.phpMyAdmin for web database management using MySQL ver 14.14 Distrib 5.1.73.
+       It reqiures a data base with 2 tables:
+1.For storing the login details of the user.
+2.For storing the transaction details of the user.
+
+# Usage
+The primary file and the starting file in index.php.
+
+#Author
+Akash Choudhary
