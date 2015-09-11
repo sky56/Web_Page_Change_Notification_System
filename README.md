@@ -39,7 +39,7 @@ sed -i "5i '$website_url';" /opt/lampp/htdocs/$email.$website_url/ch.php<br></i>
 <br>Now suppose that the user has entered the frequency as hourly, that means the users will be notified their webpage changes hourly. Now the cron syntax for hourly is 0 * * * *.<br>
 Therefore, in /var/spool/cron/crontabs file, the following wil be entered,<br>
 <br><i><b>Managing the crontab<br></b>
-<i>0 * * * * /opt/lampp/htdocs/$email.$website_url.sh</i><br>
+0 * * * * /opt/lampp/htdocs/$email.$website_url.sh</i><br>
 
 In this way, for all users, it will work and control the entries for each user independently.
 
